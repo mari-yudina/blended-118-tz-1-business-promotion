@@ -247,9 +247,11 @@ img {
 }
 
 .feature-img {
-  /* width: 54px;
-  height: 54px;*/
   margin-bottom: 26px;
+}
+
+.feature-item:last-child img {
+  margin-bottom: 34px;
 }
 
 .feature-subtitle {
@@ -519,8 +521,13 @@ img {
   font-size: 16px;
   text-align: center;
   color: #2f281e;
-  background: #8081d3;
   margin: 0 auto;
+
+  background-color: rgb(235, 235, 235);
+  padding: 13px 20px;
+  border-radius: 50px;
+  display: inline-block;
+  box-shadow: 0 4px 4px 0 rgba(23, 58, 86, 0.15);
 }
 
 .staff-img {
@@ -543,18 +550,63 @@ img {
 /* ---------------SECTION NEWS FEED------------------- */
 
 .news-feed {
+  background: #fff;
+  width: 100vw;
+  padding-top: 100px;
 }
+
 .news-feed-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 10px;
 }
-.news-feed-text {
+
+.news-feed-text-one {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #22343d;
+  max-width: 465px;
+  margin-bottom: 40px;
 }
+
 .news-feed-list {
+  display: flex;
+  gap: 30px;
 }
+
 .news-feed-item {
+  border-radius: 8px;
+  background: #fff;
+
+  flex-basis: calc((100% - 2 * 30px) / 3);
+
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  width: 350px;
+  height: 359px;
 }
+
 .news-feed-img {
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 24px;
 }
+
+.news-feed-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  margin-bottom: 12px;
+  margin-left: 24px;
+}
+
 .news-feed-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.67;
+  color: #22343d;
 }
 
 /* ---------------/ SECTION NEWS FEED------------------- */
@@ -562,26 +614,144 @@ img {
 /* ---------------SECTION PRICING------------------- */
 
 .pricing {
+  background: #fff;
+  width: 100vw;
+  padding-top: 171px;
 }
 .pricing-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 10px;
 }
+
 .pricing-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 40px;
 }
-.pricing-box {
+
+.pricing-list {
+  display: flex;
+  gap: 72px;
 }
+
+.pricing-item {
+  flex-basis: calc((100% - 2 * 72px) / 3);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  border-radius: 8px;
+  width: 322px;
+  height: 456px;
+  padding: 32px 0;
+}
+
 .pricing-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.67;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 8px;
 }
+
 .pricing-one-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 16px;
 }
+
+.pricing-list-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.pricing-list-box-one {
+  max-width: 187px;
+  max-height: 100px;
+  margin-bottom: 16px;
+  padding-top: 34px;
+}
+
 .pricing-one-img {
+  padding: 24px 0;
 }
+
 .pricing-two-img {
+  margin: 0 82px 7px 10px;
 }
+
 .pricing-two-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+  margin-left: 10px;
 }
+
 .pricing-three-text {
+  /* font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+  color: #fff; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 16px;
 }
+.three {
+  margin-bottom: 30px;
+}
+
+.pricing-item-centr {
+  background: #02897a;
+}
+
+.pricing-subtitle-centr {
+  color: #fff;
+}
+
+.pricing-one-text-centr {
+  color: #fff;
+}
+
+.three {
+  color: #fff;
+}
+
 .pricing-btn {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background: #02897a;
+  margin: 30px auto 0 auto;
+}
+
+.pricing-btn-centr {
+  background: #fff;
+  color: #02897a;
 }
 
 /* ---------------/ SECTION PRICING------------------- */
