@@ -318,7 +318,15 @@ img {
   margin-bottom: 30px;
 }
 
-.management-list {
+.management-item {
+}
+
+.management-item-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #22343d;
+  margin-bottom: 12px;
 }
 
 .management-item:not(:last-child) {
@@ -333,11 +341,7 @@ img {
   max-width: 486px;
 }
 
-.management-item-subtitle {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.63;
-  color: #22343d;
+.management-list {
 }
 
 .management-img {
@@ -463,6 +467,7 @@ img {
   font-size: 16px;
   line-height: 1.63;
   color: #22343d;
+  margin-bottom: 12px;
 }
 
 .collaborative-text {
@@ -609,6 +614,10 @@ img {
   color: #22343d;
 }
 
+.news-feed-subtitle-center {
+  color: #02897a;
+}
+
 /* ---------------/ SECTION NEWS FEED------------------- */
 
 /* ---------------SECTION PRICING------------------- */
@@ -711,9 +720,6 @@ img {
   text-align: center;
   margin-bottom: 16px;
 }
-.three {
-  margin-bottom: 30px;
-}
 
 .pricing-item-centr {
   background: #02897a;
@@ -727,7 +733,7 @@ img {
   color: #fff;
 }
 
-.three {
+.pricing-three-text-centr {
   color: #fff;
 }
 
