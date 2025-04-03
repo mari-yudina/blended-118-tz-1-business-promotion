@@ -78,7 +78,7 @@ img {
   align-items: center;
 }
 
-.header-nav-img-logo {
+.header-nav-svg-logo {
   display: flex;
 }
 
@@ -1006,12 +1006,11 @@ img {
   justify-content: center;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  background-color: #92bdb6;
+  border-radius: 100%;
+  background-color: #edfffc;
 }
 
-.our-team-icon-svg {
-  stroke-width: 2px;
+.insta-icon-svg {
   stroke: #02897a;
   fill: none;
 }
@@ -1067,13 +1066,12 @@ img {
 }
 
 .footer-four-img {
-  max-height: 28px;
-  transform: scale(1);
 }
 
 .footer-four-inpt {
   min-width: 240px;
   border: none;
+  padding-left: 42px;
 }
 
 .footer-four-inpt::placeholder {
@@ -1083,7 +1081,15 @@ img {
   color: #02897a;
 }
 
+.icon-mobile-screen {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .your-pfone {
+  position: relative;
   display: flex;
   gap: 12px;
 
@@ -1117,3 +1123,183 @@ img {
 }
 
 /* ---------------/ SECTION FOOTER------------------- */
+
+/* ---------------! RESOURSES !------------------- */
+
+/* --------------- Great Business------------------- */
+
+.great-business {
+  background: #fff;
+  width: 100vw;
+  padding-top: 76px;
+  justify-content: space-between;
+}
+
+.great-business-container {
+  display: flex;
+}
+
+.great-business-box {
+}
+
+.res-great-business-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.49;
+  letter-spacing: -0.03em;
+  color: #22343d;
+  margin-bottom: 24px;
+}
+
+.res-great-business-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: -0.03em;
+  color: #22343d;
+  max-width: 535px;
+  margin-bottom: 24px;
+}
+
+.res-great-business-input-box {
+  position: relative;
+}
+
+.res-great-business-input {
+  border: 1px solid #eaeaea;
+  border-radius: 100px;
+  width: 469px;
+  height: 66px;
+  padding-left: 27px;
+  margin-bottom: 24px;
+}
+
+.res-great-business-input::placeholder {
+}
+
+.res-great-business-btn {
+  position: absolute;
+  top: 8px;
+  left: 344px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0;
+  color: #fff;
+  border-radius: 100px;
+
+  width: 117px;
+  height: 50px;
+  background: #02897a;
+}
+
+.res-great-business-icon-box {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.res-great-business-list {
+  display: flex;
+}
+
+.res-great-business-item {
+}
+
+.res-great-business-icon {
+}
+
+.res-great-business-text-join {
+}
+
+.res-great-business-img {
+}
+
+/* ---------------/ Great Business------------------- */
+
+/* --------------- Latest Stories------------------- */
+
+.latest-stories {
+}
+
+.container {
+}
+
+.latest-stories-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.latest-stories-title-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.latest-stories-list {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.latest-stories-item {
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  width: 348px;
+  height: 359px;
+}
+
+.latest-stories-img {
+  border-radius: 8px 8px 0 0;
+}
+
+.latest-stories-caption-box {
+  padding: 22px 30px 40px 24px;
+}
+
+.latest-stories-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+
+  margin-left: 24px;
+  margin-bottom: 12px;
+}
+
+.latest-stories-accent {
+  font-weight: 700;
+}
+
+.latest-stories-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
+  color: #22343d;
+  max-width: 294px;
+}
+
+.latest-stories-end-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.latest-stories-text-end {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.44444;
+  color: #22343d;
+}
+
+.latest-stories-icon {
+}
+
+/* ---------------/ Latest Stories------------------- */
