@@ -206,6 +206,7 @@ img {
 .hero-btn-img {
   width: 20px;
   height: 18px;
+  fill: #02897a;
 }
 
 .hero-img {
@@ -258,10 +259,11 @@ img {
 }
 
 .feature-icon {
-  font-family: 'FontAwesome', sans-serif;
+  /* font-family: 'FontAwesome', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: #fff;
+  color: #fff; */
+  /* fill: #fff; */
 }
 
 .feature-item:last-child img {
@@ -430,6 +432,7 @@ img {
 }
 
 .support-icon {
+  fill: black;
 }
 
 .support-item:not(:last-child) {
