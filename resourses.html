@@ -103,7 +103,10 @@
                   />
                 </li>
               </ul>
-              <p class="res-great-business-text-join">Join over 4,000+ other</p>
+              <p class="res-great-business-text-join">
+                Join over <span class="res-great-business-accent">4,000</span>+
+                other
+              </p>
             </div>
           </div>
           <img
@@ -242,53 +245,70 @@
         </div>
       </section>
       <section class="contact-us">
-        <div class="container">
-          <h2>Contact Us</h2>
-          <p>Need more detailed information? Get in touch with us.</p>
-          <ul>
-            <li>
-              <img
-                src="./imajes/index/instagram-icon.png"
-                alt="instagram logo"
-                width="24"
-                height="24"
-              />
-            </li>
-            <li>
-              <img
-                src="./imajes/index/facebook-icon.png"
-                alt="facebook logo"
-                width="24"
-                height="24"
-              />
-            </li>
-            <li>
-              <img
-                src="./imajes/index/twitter-icon.png"
-                alt="twitter logo"
-                width="33"
-                height="33"
-              />
-            </li>
-          </ul>
-          <img
-            src="./imajes/resources/map.png"
-            alt="map"
-            width="871"
-            height="323"
-          />
+        <div class="container contact-us-container">
+          <h2 class="contact-us-title">Contact Us</h2>
+          <p class="contact-us-text">
+            Need more detailed information? Get in touch with us.
+          </p>
 
-          <h3>Send a message</h3>
-          <ul>
-            <li>
-              <input type="text" placeholder="Your Name" size="30" required />
+          <ul class="contact-us-list">
+            <li class="contact-us-item">
+              <a class="contact-us-icon-linc" href="#">
+                <svg class="contact-us-icon" width="30" height="30">
+                  <use href="./imajes/icons-two.svg#icon-instagram"></use></svg
+              ></a>
             </li>
-            <li>
-              <input type="email" placeholder="Your Email" size="30" required />
+            <li class="contact-us-item">
+              <a class="contact-us-icon-linc" href="#">
+                <svg class="contact-us-icon" width="30" height="30">
+                  <use href="./imajes/icons-two.svg#icon-facebook"></use></svg
+              ></a>
             </li>
-            <li><input type="text" placeholder="Your Message" size="30" /></li>
+            <li class="contact-us-item">
+              <a class="contact-us-icon-linc" href="#">
+                <svg class="contact-us-icon" width="30" height="30">
+                  <use href="./imajes/icons-two.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
           </ul>
-          <button type="submit">Send</button>
+          <div class="contact-us-img-box">
+            <img
+              class="contact-us-img"
+              src="./imajes/resources/map.png"
+              alt="map"
+              width="871"
+              height="323"
+            />
+          </div>
+          <form class="contact-us-form">
+            <h3 class="contact-us-subtitle">Send a message</h3>
+            <ul class="contact-us-input-list">
+              <li class="contact-us-input-item">
+                <input
+                  class="contact-us-input"
+                  type="text"
+                  placeholder="Your Name"
+                  required
+                />
+              </li>
+              <li class="contact-us-input-item">
+                <input
+                  class="contact-us-input"
+                  type="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </li>
+              <li class="contact-us-input-item">
+                <textarea
+                  class="contact-us-textarea"
+                  type="text"
+                  placeholder="Your Message"
+                ></textarea>
+              </li>
+            </ul>
+            <button class="contact-us-btn" type="submit">Send</button>
+          </form>
         </div>
       </section>
     </main>
