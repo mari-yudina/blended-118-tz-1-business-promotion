@@ -1727,3 +1727,73 @@ img {
 }
 
 /* ---------------/ COMPLETION------------------- */
+
+/* --------------- GOIN THOUSAND------------------- */
+
+.goin-thousand {
+  width: 100vw;
+  background-color: #fff;
+  padding-top: 150px;
+}
+
+.goin-thousand-title {
+  display: block;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  max-width: 537px;
+  margin-bottom: 137px;
+}
+
+.goin-thousand-box {
+  display: flex;
+  justify-content: center;
+  gap: 227px;
+}
+
+.goin-thousand-boxchild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goin-thousand-icon {
+  margin-bottom: 71px;
+}
+
+.goin-thousand-lincsubtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.goin-thousand-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.goin-thousand-item {
+}
+
+.goin-thousand-linc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: center;
+  color: #22343d;
+}
+
+.goin-thousand-linctext {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #000;
+}
+
+/* ---------------/ GOIN THOUSAND------------------- */
