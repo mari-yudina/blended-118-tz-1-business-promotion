@@ -1645,7 +1645,7 @@ img {
   padding: 49px 0 49px 3px;
 }
 
-.refundable-hidden {
+.title-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -1674,3 +1674,56 @@ img {
 }
 
 /* ---------------/ REFUNDABLE------------------- */
+
+/* --------------- COMPLETION------------------- */
+
+.completion {
+  width: 100vw;
+  background-color: #fff;
+  padding-top: 100px;
+}
+
+.completion-container {
+}
+
+.title-hidden {
+}
+
+.completion-box {
+  display: flex;
+  gap: 88px;
+  margin-bottom: 78px;
+}
+
+.step-img {
+  width: 500px;
+  height: 279px;
+}
+
+.completion-box-child {
+  padding: 49px 0;
+}
+
+.step-subsubtitle {
+}
+
+.step-subtitle {
+}
+
+.step-text {
+  max-width: 380px;
+}
+
+.completion-btn {
+  display: block;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  background: #02897a;
+}
+
+/* ---------------/ COMPLETION------------------- */
