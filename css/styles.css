@@ -1799,3 +1799,146 @@ img {
 }
 
 /* ---------------/ GOIN THOUSAND------------------- */
+
+/* ---------------!!! PRICING !!!------------------- */
+
+/* --------------- Enterprise------------------- */
+
+.enterprise {
+  width: 100vw;
+  background-color: #fff;
+  padding-top: 203px;
+}
+
+.enterprise-subtitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+
+.enterprise-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 8px;
+}
+
+.enterprise-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343d;
+  margin-bottom: 32px;
+}
+
+.enterprise-btn {
+  display: block;
+  margin: auto auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  background: #02897a;
+}
+
+/* ---------------/ Enterprise------------------- */
+
+/* --------------- Product Being ------------------- */
+
+.product-being {
+  width: 100vw;
+  background-color: #fff;
+  padding-top: 345px;
+}
+
+.product-being-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 56px;
+}
+.product-being-box {
+  display: flex;
+  gap: 60px;
+}
+
+.product-being-boximg {
+  padding-top: 24px;
+}
+
+.product-being-img {
+  width: 528px;
+  height: 392px;
+}
+.product-being-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.product-being-item {
+}
+.product-being-boxgrandchild {
+  display: flex;
+  gap: 27px;
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: 23px;
+}
+.product-being-icon {
+}
+.product-being-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #22343d;
+}
+.product-being-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  max-width: 530px;
+}
+
+/* ---------------/ Product Being------------------- */
+
+.frequently {
+  width: 100vw;
+  background-color: #fff;
+}
+.frequently-container {
+  padding: 0 95px;
+}
+.frequently-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 8px;
+}
+.frequently-texttitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+.frequently-list {
+}
+.frequently-item {
+}
+.frequently-item-box {
+}
+.frequently-icon {
+}
+.frequently-text {
+}
+.frequently-text-center {
+}
