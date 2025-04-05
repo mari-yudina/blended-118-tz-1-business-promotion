@@ -1465,6 +1465,8 @@ img {
 
 /* ---------------/ Contact Us------------------- */
 
+/* ---------------!!!  CUSTOMER  !!!-------------------- */
+
 /* --------------- OUR CLIENTS------------------- */
 
 .our-clients {
@@ -1504,7 +1506,7 @@ img {
 
 /* ---------------/ OUR CLIENTS------------------- */
 
-/* ---------------/ CHOOSE PRODUCT------------------- */
+/* --------------- CHOOSE PRODUCT------------------- */
 
 .choose-product {
   background-color: #fff;
@@ -1571,3 +1573,104 @@ img {
 }
 
 /* ---------------/ CHOOSE PRODUCT------------------- */
+
+/* --------------- PRODUCT WORK------------------- */
+
+.product-work {
+  background-color: #fff;
+  width: 100vw;
+  padding-top: 169px;
+}
+
+.product-work-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 73px;
+}
+
+.product-work-box {
+  display: flex;
+  gap: 89px;
+}
+
+.step-img {
+  width: 500px;
+  height: 279px;
+}
+
+.product-work-boxchild {
+  padding: 35px 41px 34px 0;
+}
+
+.step-subsubtitle {
+  font-weight: 500;
+  font-size: 20px;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+
+.step-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+
+.step-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  max-width: 360px;
+}
+
+/* ---------------/ PRODUCT WORK------------------- */
+
+/* --------------- REFUNDABLE------------------- */
+
+.refundable {
+  width: 100vw;
+  background-color: #fff;
+  padding-top: 100px;
+}
+
+.refundable-container {
+  display: flex;
+  gap: 76px;
+}
+
+.refundable-box {
+  padding: 49px 0 49px 3px;
+}
+
+.refundable-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.step-subsubtitle {
+}
+.step-subtitle {
+}
+.step-text {
+}
+
+.refundable-text {
+  max-width: 390px;
+}
+
+.refundable-img {
+}
+
+/* ---------------/ REFUNDABLE------------------- */
