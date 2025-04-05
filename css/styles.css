@@ -1761,6 +1761,7 @@ img {
 
 .goin-thousand-icon {
   stroke: #fff;
+  border: #a54d4d;
   margin-bottom: 71px;
 }
 
@@ -1798,27 +1799,3 @@ img {
 }
 
 /* ---------------/ GOIN THOUSAND------------------- */
-
-.goin-thousand-iconbox {
-  width: 61px;
-  height: 61px;
-  margin-bottom: 71px;
-}
-
-.goin-thousand-iconbox-child {
-  width: 43px;
-  height: 47px;
-  border-radius: 10px;
-  background-color: #f03e3d;
-  backdrop-filter: blur(24px);
-}
-
-.icon-new {
-  fill: #fff;
-}
-
-.goin-thousand-iconbox-child-one {
-}
-
-.goin-thousand-iconbox-child-two {
-}
