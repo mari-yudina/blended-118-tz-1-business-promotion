@@ -1800,7 +1800,57 @@ img {
 
 /* ---------------/ GOIN THOUSAND------------------- */
 
+/* --------------- PROMO------------------- */
+
+.promo-customer {
+  padding-top: 195px;
+}
+
+/* ---------------/ PROMO------------------- */
+
+/* --------------- FOOTER------------------- */
+
+.footer-customer {
+  padding-top: 150px;
+}
+
+/* ---------------/ FOOTER------------------- */
+
 /* ---------------!!! PRICING !!!------------------- */
+
+/* --------------- Pricing ------------------- */
+
+.pricing-pricing {
+  width: 100vw;
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+.pricing-subtitle-pricing {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  margin-bottom: 32px;
+}
+
+.pricing-title-pricing {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+
+.pricing-text-pricing {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 49px;
+}
+
+/* ---------------/ Pricing ------------------- */
 
 /* --------------- Enterprise------------------- */
 
@@ -1909,13 +1959,17 @@ img {
 
 /* ---------------/ Product Being------------------- */
 
+/* --------------- Frequently------------------- */
+
 .frequently {
   width: 100vw;
   background-color: #fff;
 }
+
 .frequently-container {
   padding: 0 95px;
 }
+
 .frequently-title {
   text-align: center;
   font-weight: 700;
@@ -1923,6 +1977,7 @@ img {
   color: #22343d;
   margin-bottom: 8px;
 }
+
 .frequently-texttitle {
   text-align: center;
   font-weight: 400;
@@ -1930,15 +1985,55 @@ img {
   color: #22343d;
   margin-bottom: 50px;
 }
+
 .frequently-list {
 }
+
 .frequently-item {
+}
+
+.frequently-box {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
 }
 .frequently-item-box {
 }
+
 .frequently-icon {
 }
+
 .frequently-text {
 }
+
+.frequently-boxline {
+  border: 1px solid #e7e7e7;
+  width: 920px;
+  height: 0px;
+  margin-bottom: 16px;
+}
+
+.frequently-boxline-last {
+  margin-bottom: 0;
+}
+
 .frequently-text-center {
 }
+
+/* ---------------/ Frequently------------------- */
+
+/* --------------- Promo------------------- */
+
+.promo-pricing {
+  padding-top: 150px;
+}
+
+/* ---------------/ Promo------------------- */
+
+/* --------------- Footer------------------- */
+
+.footer-pricing {
+  padding-top: 150px;
+}
+
+/* ---------------/ Footer------------------- */

@@ -25,32 +25,45 @@
       rel="stylesheet"
     /> -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Resources</title>
+    <title>Business promotion</title>
   </head>
-
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="./index.html"
-              ><img src="./imajes/index/logo.png" alt="logo" />Product</a
-            >
+    <header class="header">
+      <div class="header-container container">
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-linc-logo" href="./index.html">
+                <svg class="header-nav-svg-logo" width="40" height="36">
+                  <use href="./imajes/icons.svg#icon-logo"></use></svg
+                >Product</a
+              >
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-linc" href="./index.html">Product</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-linc" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-linc" href="./customer.html">Customers</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-linc" href="./resourses.html"
+                ><span class="header-nav-accent">Resources</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-list">
+          <li class="header-item">
+            <button class="header-btn-sign-in" type="button">Sign In</button>
           </li>
-          <li>
-            <a href="./index.html"><span>Product</span></a>
+          <li class="header-item">
+            <button class="header-btn-sign-up" type="button">Sign Up</button>
           </li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customer.html">Customers</a></li>
-          <li><a href="./resourses.html">Resources</a></li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <button type="button"><span>Sign In</span></button>
-        </li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      </div>
     </header>
     <main>
       <section class="great-business">
@@ -255,19 +268,19 @@
             <li class="contact-us-item">
               <a class="contact-us-icon-linc" href="#">
                 <svg class="contact-us-icon" width="30" height="30">
-                  <use href="./imajes/icons-two.svg#icon-instagram"></use></svg
+                  <use href="./imajes/icons.svg#icon-instagram"></use></svg
               ></a>
             </li>
             <li class="contact-us-item">
               <a class="contact-us-icon-linc" href="#">
                 <svg class="contact-us-icon" width="30" height="30">
-                  <use href="./imajes/icons-two.svg#icon-facebook"></use></svg
+                  <use href="./imajes/icons.svg#icon-facebook"></use></svg
               ></a>
             </li>
             <li class="contact-us-item">
               <a class="contact-us-icon-linc" href="#">
                 <svg class="contact-us-icon" width="30" height="30">
-                  <use href="./imajes/icons-two.svg#icon-twitter"></use></svg
+                  <use href="./imajes/icons.svg#icon-twitter"></use></svg
               ></a>
             </li>
           </ul>
@@ -312,69 +325,95 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div>
-        <a href="./index.html"
-          ><img src="./imajes/index/logo.png" alt="logo" />Product</a
-        >
-        <ul>
-          <li>
-            <a href=""
-              ><img
-                src="./imajes/index/instagram-icon.png"
-                alt="logo instagram"
-                width="24"
-                height="24"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./imajes/index/facebook-icon.png"
-                alt="logo facebook"
-                width="24"
-                height="24"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./imajes/index/twitter-icon.png"
-                alt="logo twitter"
-                width="24"
-                height="24"
-            /></a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-linc">
-        <a href="#">
-          <h3>Resource</h3>
-        </a>
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
-      </div>
-      <div class="footer-linc">
-        <a href="#">
-          <h3>Legal Stuff</h3>
-        </a>
-        <ul>
-          <li><a href="#">Disclaimer</a></li>
-          <li><a href="#">Financing</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-      </div>
-      <div>
-        <a href="#"> knowing you're always on the best energy deal.</a><br />
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-one-box">
+            <a class="footer-logo-link" href="./index.html">
+              <svg class="footer-logo-img" width="40" height="36">
+                <use href="./imajes/icons.svg#icon-logo"></use></svg
+              >Product</a
+            >
 
-        <input type="tel" /><br />
+            <ul class="footer-one-list">
+              <li class="footer-one-item">
+                <a class="footer-one-link" href="">
+                  <svg class="insta-icon-svg" width="24" height="24">
+                    <use href="./imajes/icons.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+              <li class="footer-one-item">
+                <a class="footer-one-link" href="">
+                  <svg class="insta-icon-svg" width="24" height="24">
+                    <use href="./imajes/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="footer-one-item">
+                <a class="footer-one-link" href="">
+                  <svg class="insta-icon-svg" width="24" height="24">
+                    <use href="./imajes/icons.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-two-box">
+            <a class="footer-two-link" href="#"
+              ><h3 class="footer-subtitle">Resource</h3></a
+            >
+            <ul class="footer-two-list">
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">About Us</a>
+              </li>
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">Blog</a>
+              </li>
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">Contact</a>
+              </li>
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-three-box">
+            <a class="footer-three-link" href="#">
+              <h3 class="footer-subtitle">Legal Stuff</h3>
+            </a>
+            <ul class="footer-two-list">
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">Disclaimer</a>
+              </li>
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">Financing</a>
+              </li>
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-four-box">
+            <h3 class="footer-subtitle footer-subtitle-one">
+              knowing you're always on the best energy deal.
+            </h3>
+            <div class="your-pfone">
+              <input
+                class="footer-four-inpt"
+                type="tel"
+                placeholder="Enter your phone number"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required
+              />
+              <svg class="icon-mobile-screen" width="18" height="28">
+                <use href="./imajes/icons.svg#icon-mobile-screen"></use>
+              </svg>
+            </div>
 
-        <button type="button">Sign up Now</button>
-        <p>Made With Love By Figmaland All Right Reserved</p>
+            <button class="footer-four-btn" type="button">Sign up Now</button>
+          </div>
+        </div>
+        <p class="footer-text footer-text-last">
+          Made With Love By Figmaland All Right Reserved
+        </p>
       </div>
     </footer>
   </body>

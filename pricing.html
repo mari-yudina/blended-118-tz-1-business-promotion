@@ -25,103 +25,123 @@
       rel="stylesheet"
     /> -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Pricing</title>
+    <title>Business promotion</title>
   </head>
-
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="./index.html"
-              ><img src="./imajes/index/logo.png" alt="logo" />Product</a
-            >
+    <header class="header">
+      <div class="header-container container">
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-linc-logo" href="./index.html">
+                <svg class="header-nav-svg-logo" width="40" height="36">
+                  <use href="./imajes/icons.svg#icon-logo"></use></svg
+                >Product</a
+              >
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-linc" href="./index.html"
+                >Product</a
+              >
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-linc" href="./pricing.html"><span class="header-nav-accent">Pricing</span></a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-linc" href="./customer.html">Customers</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-linc" href="./resourses.html">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-list">
+          <li class="header-item">
+            <button class="header-btn-sign-in" type="button">Sign In</button>
           </li>
-          <li>
-            <a href="./index.html"><span>Product</span></a>
+          <li class="header-item">
+            <button class="header-btn-sign-up" type="button">Sign Up</button>
           </li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customer.html">Customers</a></li>
-          <li><a href="./resourses.html">Resources</a></li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <button type="button"><span>Sign In</span></button>
-        </li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      </div>
     </header>
-
     <main>
-      <section>
-        <h3>pricing</h3>
-        <h1>Let’s get some real work done here.</h1>
-        <p>
-          Prodict is your perfect solution for working. Get started now for free
-        </p>
-        <div>
-          <h3>Free</h3>
-          <p>Brief price description</p>
-          <img
-            src="./imajes/index/number-0.png"
-            alt="number 0"
-            width="52"
-            height="100"
-          />
-          <img
-            src="./imajes/index/dollar-logo-green.png"
-            alt="logo dollars green"
-            width="16"
-            height="29"
-          />
-          <p>Per / month</p>
-          <p>Only 2 Operators</p>
-          <p>Notifications</p>
-          <p>Landing Pages</p>
-          <button type="button">Order Now</button>
-        </div>
-        <div>
-          <h3>Standard</h3>
-          <p>Brief price description</p>
-          <img
-            src="./imajes/index/number-5.png"
-            alt="number 5"
-            width="46"
-            height="100"
-          />
-          <img
-            src="./imajes/index/dollar-logo-white.png"
-            alt="logo dollars white"
-            width="16"
-            height="29"
-          />
-          <p>Per / month</p>
-          <p>5+ Operators</p>
-          <p>Notifications</p>
-          <p>Landing Pages</p>
-          <button type="button">Order Now</button>
-        </div>
-        <div>
-          <h3>PREMIUM</h3>
-          <p>Brief price description</p>
-          <img
-            src="./imajes//index/number-10.png"
-            alt="number 10"
-            width="82"
-            height="100"
-          />
-          <img
-            src="./imajes/index/dollar-logo-green.png"
-            alt="logo dollars green"
-            width="16"
-            height="29"
-          />
-          <p>Per / month</p>
-          <p>10+ OperatorsPer / month</p>
-          <p>Notifications</p>
-          <p>Landing Pages</p>
-          <button type="button">Order Now</button>
+      <section class="pricing-pricing">
+        <div class="container">
+            <h3 class="pricing-subtitle-pricing">PRICING</h3>
+          <h2 class="pricing-title-pricing">Let’s get some real work done here.</h2>
+          <p class="pricing-text-pricing">Prodict is your perfect solution for working. Get started now for free</p>
+          <ul class="pricing-list">
+            <li class="pricing-item">
+              <h3 class="pricing-subtitle">Free</h3>
+              <p class="pricing-one-text">Brief price description</p>
+              <div class="pricing-list-box">
+                <p class="pricing-one-img">0</p>
+
+                <div class="pricing-list-box-one">
+                  <p class="pricing-two-img">$</p>
+
+                  <p class="pricing-two-text">Per / month</p>
+                </div>
+              </div>
+              <div class="pricing-three-text-box">
+                <p class="pricing-three-text">Only 2 Operators</p>
+                <p class="pricing-three-text">Notifications</p>
+                <p class="pricing-three-text">Landing Pages</p>
+              </div>
+              <button class="pricing-btn" type="button">Order Now</button>
+            </li>
+            <li class="pricing-item pricing-item-centr">
+              <h3 class="pricing-subtitle pricing-subtitle-centr">Standard</h3>
+              <p class="pricing-one-text pricing-one-text-centr">
+                Brief price description
+              </p>
+              <div class="pricing-list-box">
+                <p class="pricing-one-img pricing-one-img-centr">5</p>
+
+                <div class="pricing-list-box-one">
+                  <p class="pricing-two-img pricing-two-img-centr">$</p>
+
+                  <p class="pricing-two-text pricing-two-text-centr">
+                    Per / month
+                  </p>
+                </div>
+              </div>
+              <div class="pricing-three-text-box">
+                <p class="pricing-three-text pricing-three-text-centr">
+                  5+ Operators
+                </p>
+                <p class="pricing-three-text pricing-three-text-centr">
+                  Notifications
+                </p>
+                <p class="pricing-three-text pricing-three-text-centr">
+                  Landing Pages
+                </p>
+              </div>
+              <button class="pricing-btn pricing-btn-centr" type="button">
+                Order Now
+              </button>
+            </li>
+            <li class="pricing-item">
+              <h3 class="pricing-subtitle">Premium</h3>
+              <p class="pricing-one-text">Brief price description</p>
+              <div class="pricing-list-box">
+                <p class="pricing-one-img">10</p>
+
+                <div class="pricing-list-box-one">
+                  <p class="pricing-two-img">$</p>
+
+                  <p class="pricing-two-text">Per / month</p>
+                </div>
+              </div>
+              <div class="pricing-three-text-box">
+                <p class="pricing-three-text">10+ Operators</p>
+                <p class="pricing-three-text">Notifications</p>
+                <p class="pricing-three-text">Landing Pages</p>
+              </div>
+              <button class="pricing-btn" type="button">Order Now</button>
+            </li>
+          </ul>
         </div>
       </section>
       
@@ -198,19 +218,19 @@
           
         <ul class="frequently-list">
           
-          <li class="frequently-item frequently-item-box">
-            <svg class="frequently-icon"
+          <li class="frequently-item ">
+            <div class="frequently-box"><svg class="frequently-icon"
               width="24"
               height="24"><use href="./imajes/icons.svg#icon-plus-circle"></use></svg>
             
             <p class="frequently-text">What are my payment option?</p>
-          </li>
-          <li class="frequently-item frequently-item-box">
-             <svg class="frequently-icon"
+          </div><div class="frequently-boxline"></div></li>
+          <li class="frequently-item ">
+             <div class="frequently-box"><svg class="frequently-icon"
               width="24"
               height="24"><use href="./imajes/icons.svg#icon-minus-circle"></use></svg>
             <p class="frequently-text">How can I invite collaborator to platform?</p>
-          </li>
+          </div></li>
           <li class="frequently-item">
             <p class="frequently-text-center">
               After creating your account you will have an oppurtunity to create
@@ -218,98 +238,126 @@
               e-mail. An invitation will be sent automatically. Then, invited
               user will have to confirm his account by e-mail and finish userd
               onboarding.
-            </p>
+            </p><div class="frequently-boxline"></div>
           </li>
-          <li class="frequently-item frequently-item-box">
-             <svg class="frequently-icon"
+          <li class="frequently-item ">
+            <div class="frequently-box"> <svg class="frequently-icon"
               width="24"
               height="24"><use href="./imajes/icons.svg#icon-plus-circle"></use></svg>
             <p class="frequently-text">Can I upgrade my plan?</p>
-          </li>
+          </div><div class="frequently-boxline"></div></li>
           <li class="frequently-item frequently-item-box">
-            <svg class="frequently-icon"
+            <div class="frequently-box"><svg class="frequently-icon"
               width="24"
               height="24"><use href="./imajes/icons.svg#icon-plus-circle"></use></svg>
             <p class="frequently-text">Can I cancel my plan at anytime?</p>
-          </li>
+          </div><div class="frequently-boxline-last"></div></li>
         </ul></div>
       </section>
-      <section>
-        <div>
-          <h2>Join 100 Compannies who boost their business with Product</h2>
-          <button type="button">Get This</button>
+      <section class="promo promo-pricing">
+        <div class="promo-container container">
+          <div class="promo-box">
+            <h2 class="promo-title">
+              Join 100 Compannies who boost their business with Product
+            </h2>
+            <button class="promo-btn" type="button">Get This</button>
+          </div>
+          <img
+            class="promo-img"
+            src="./imajes/index/screen.png"
+            alt="screen"
+            width="351"
+            height="331"
+          />
         </div>
-        <img
-          src="./imajes/index/screen.png"
-          alt="screen"
-          width="351"
-          height="331"
-        />
       </section>
     </main>
-    <footer>
-      <div>
-        <a href="./index.html"
-          ><img src="./imajes/index/logo.png" alt="logo" />Product</a
-        >
-        <ul>
-          <li>
-            <a href=""
-              ><img
-                src="./imajes/index/instagram-icon.png"
-                alt="logo instagram"
-                width="24"
-                height="24"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./imajes/index/facebook-icon.png"
-                alt="logo facebook"
-                width="24"
-                height="24"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./imajes/index/twitter-icon.png"
-                alt="logo twitter"
-                width="24"
-                height="24"
-            /></a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-linc">
-        <a href="#">
-          <h3>Resource</h3>
-        </a>
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
-      </div>
-      <div class="footer-linc">
-        <a href="#">
-          <h3>Legal Stuff</h3>
-        </a>
-        <ul>
-          <li><a href="#">Disclaimer</a></li>
-          <li><a href="#">Financing</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-      </div>
-      <div>
-        <a href="#"> knowing you're always on the best energy deal.</a><br />
+ <footer class="footer footer-pricing">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-one-box">
+            <a class="footer-logo-link" href="./index.html">
+              <svg class="footer-logo-img" width="40" height="36">
+                <use href="./imajes/icons.svg#icon-logo"></use></svg
+              >Product</a
+            >
 
-        <input type="tel" /><br />
+            <ul class="footer-one-list">
+              <li class="footer-one-item">
+                <a class="footer-one-link" href="">
+                  <svg class="insta-icon-svg" width="24" height="24">
+                    <use href="./imajes/icons.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+              <li class="footer-one-item">
+                <a class="footer-one-link" href="">
+                  <svg class="insta-icon-svg" width="24" height="24">
+                    <use href="./imajes/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="footer-one-item">
+                <a class="footer-one-link" href="">
+                  <svg class="insta-icon-svg" width="24" height="24">
+                    <use href="./imajes/icons.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-two-box">
+            <a class="footer-two-link" href="#"
+              ><h3 class="footer-subtitle">Resource</h3></a
+            >
+            <ul class="footer-two-list">
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">About Us</a>
+              </li>
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">Blog</a>
+              </li>
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">Contact</a>
+              </li>
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-three-box">
+            <a class="footer-three-link" href="#">
+              <h3 class="footer-subtitle">Legal Stuff</h3>
+            </a>
+            <ul class="footer-two-list">
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">Disclaimer</a>
+              </li>
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">Financing</a>
+              </li>
+              <li class="footer-two-item">
+                <a class="footer-two-link" href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-four-box">
+            <h3 class="footer-subtitle footer-subtitle-one">
+              knowing you're always on the best energy deal.
+            </h3>
+            <div class="your-pfone">
+              <input
+                class="footer-four-inpt"
+               
+             
+                
+              />
+              
+            </div>
 
-        <button type="button">Sign up Now</button>
-        <p>Made With Love By Figmaland All Right Reserved</p>
+            <button class="footer-four-btn" type="button">Sign up Now</button>
+          </div>
+        </div>
+        <p class="footer-text footer-text-last">
+          Made With Love By Figmaland All Right Reserved
+        </p>
       </div>
     </footer>
   </body>
