@@ -259,11 +259,7 @@ img {
 }
 
 .feature-icon {
-  /* font-family: 'FontAwesome', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #fff; */
-  /* fill: #fff; */
+  fill: #fff;
 }
 
 .feature-item:last-child img {
@@ -2041,6 +2037,26 @@ img {
   gap: 16px;
   margin-bottom: 24px;
 }
+
+.icon.minus {
+  display: none;
+}
+
+details[open] .icon.plus {
+  display: none;
+}
+
+details[open] .icon.minus {
+  display: block;
+}
+
+.questions-sum {
+  cursor: pointer;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+}
+
 .frequently-item-box {
 }
 
