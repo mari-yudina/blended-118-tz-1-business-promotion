@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  background: #fff;
 }
 
 ul,
@@ -45,8 +46,6 @@ img {
 /* --------------- HEADER------------------- */
 
 .header {
-  background: #fff;
-  width: 100vw;
 }
 
 .header-container {
@@ -138,8 +137,6 @@ img {
 /* ---------------SECTION HERO------------------- */
 
 .hero {
-  background: #fff;
-  width: 100vw;
 }
 
 .hero-container {
@@ -217,8 +214,6 @@ img {
 /* ---------------SECTION FEATURE------------------- */
 
 .feature {
-  background: #fff;
-  width: 100vw;
   padding: 100px 0 50px 0;
 }
 
@@ -258,12 +253,20 @@ img {
   margin-bottom: 26px;
 }
 
-.feature-icon {
-  fill: #fff;
+.blue {
+  background: #4d8dff;
 }
 
-.feature-item:last-child img {
-  margin-bottom: 34px;
+.lilac {
+  background: #740a76;
+}
+
+.red {
+  background: #f03e3d;
+}
+
+.feature-icon {
+  fill: #fff;
 }
 
 .feature-subtitle {
@@ -299,8 +302,6 @@ img {
 /* ---------------SECTION MANAGEMENT------------------- */
 
 .management {
-  background: #fff;
-  width: 100vw;
   padding-top: 50px;
 }
 
@@ -364,8 +365,6 @@ img {
 /* ---------------SECTION SUPPORT------------------- */
 
 .support {
-  background: #fff;
-  width: 100vw;
   padding-top: 100px;
 }
 
@@ -452,8 +451,6 @@ img {
 /* ---------------SECTION COLLABORATIVE------------------- */
 
 .collaborative {
-  background: #fff;
-  width: 100vw;
   padding-top: 100px;
 }
 
@@ -518,8 +515,6 @@ img {
 /* ---------------SECTION STAFF------------------- */
 
 .staff {
-  background: #fff;
-  width: 100vw;
   padding-top: 150px;
 }
 
@@ -597,8 +592,6 @@ img {
 /* ---------------SECTION NEWS FEED------------------- */
 
 .news-feed {
-  background: #fff;
-  width: 100vw;
   padding-top: 100px;
 }
 
@@ -666,8 +659,6 @@ img {
 /* ---------------SECTION PRICING------------------- */
 
 .pricing {
-  background: #fff;
-  width: 100vw;
   padding-top: 171px;
 }
 .pricing-title {
@@ -830,8 +821,6 @@ img {
 /* ---------------SECTION FEETBACK------------------- */
 
 .feetback {
-  background: #fff;
-  width: 100vw;
   padding-top: 100px;
 }
 
@@ -922,8 +911,6 @@ img {
 /* ---------------SECTION PROMO------------------- */
 
 .promo {
-  background: #fff;
-  width: 100vw;
   padding: 100px 71px 0;
 }
 .promo-box {
@@ -940,7 +927,7 @@ img {
 }
 
 .promo-title {
-  display: block;
+  /* display: block; */
   min-width: 510px;
   font-weight: 600;
   font-size: 32px;
@@ -948,6 +935,7 @@ img {
   color: #fff;
   margin-top: 49px;
   margin-bottom: 46px;
+  max-width: 510px;
 }
 .promo-btn {
   border-radius: 8px;
@@ -960,8 +948,7 @@ img {
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
 }
 .promo-img {
-  margin-top: 4px;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 /* ---------------/ SECTION PROMO------------------- */
@@ -969,8 +956,6 @@ img {
 /* ---------------SECTION FOOTER------------------- */
 
 .footer {
-  background: #fff;
-  width: 100vw;
   padding-top: 100px;
 }
 .footer-container {
@@ -1082,10 +1067,6 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-four-inpt:focus {
-  border: 1px solid #bcd0e5;
-}
-
 .footer-four-inpt::placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -1143,8 +1124,6 @@ img {
 /* --------------- Great Business------------------- */
 
 .great-business {
-  background: #fff;
-  width: 100vw;
   padding-top: 76px;
   justify-content: space-between;
 }
@@ -1257,8 +1236,6 @@ img {
 /* --------------- Latest Stories------------------- */
 
 .latest-stories {
-  background: #fff;
-  width: 100vw;
   padding-top: 67px;
 }
 
@@ -1345,8 +1322,6 @@ img {
 /* --------------- Contact Us------------------- */
 
 .contact-us {
-  background: #fff;
-  width: 100vw;
   padding-top: 100px;
 }
 
@@ -1509,8 +1484,6 @@ img {
 /* --------------- OUR CLIENTS------------------- */
 
 .our-clients {
-  background-color: #fff;
-  width: 100vw;
   padding-top: 100px;
 }
 
@@ -1548,8 +1521,6 @@ img {
 /* --------------- CHOOSE PRODUCT------------------- */
 
 .choose-product {
-  background-color: #fff;
-  width: 100vw;
   padding-top: 141px;
 }
 
@@ -1578,6 +1549,9 @@ img {
 }
 
 .choose-product-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 19px;
   width: 50px;
   height: 50px;
@@ -1617,8 +1591,6 @@ img {
 /* --------------- PRODUCT WORK------------------- */
 
 .product-work {
-  background-color: #fff;
-  width: 100vw;
   padding-top: 169px;
 }
 
@@ -1671,8 +1643,6 @@ img {
 /* --------------- REFUNDABLE------------------- */
 
 .refundable {
-  width: 100vw;
-  background-color: #fff;
   padding-top: 100px;
 }
 
@@ -1718,8 +1688,6 @@ img {
 /* --------------- COMPLETION------------------- */
 
 .completion {
-  width: 100vw;
-  background-color: #fff;
   padding-top: 100px;
 }
 
@@ -1771,8 +1739,6 @@ img {
 /* --------------- GOIN THOUSAND------------------- */
 
 .goin-thousand {
-  width: 100vw;
-  background-color: #fff;
   padding-top: 150px;
 }
 
@@ -1799,9 +1765,7 @@ img {
   align-items: center;
 }
 
-.goin-thousand-icon {
-  stroke: #fff;
-  border: #a54d4d;
+.icon-img {
   margin-bottom: 71px;
 }
 
@@ -1861,8 +1825,6 @@ img {
 /* --------------- Pricing ------------------- */
 
 .pricing-pricing {
-  width: 100vw;
-  background-color: #fff;
   padding-top: 50px;
 }
 
@@ -1895,8 +1857,6 @@ img {
 /* --------------- Enterprise------------------- */
 
 .enterprise {
-  width: 100vw;
-  background-color: #fff;
   padding-top: 203px;
 }
 
@@ -1942,8 +1902,6 @@ img {
 /* --------------- Product Being ------------------- */
 
 .product-being {
-  width: 100vw;
-  background-color: #fff;
   padding-top: 345px;
 }
 
@@ -2002,8 +1960,6 @@ img {
 /* --------------- Frequently------------------- */
 
 .frequently {
-  width: 100vw;
-  background-color: #fff;
 }
 
 .frequently-container {
@@ -2027,15 +1983,19 @@ img {
 }
 
 .frequently-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.questions-sum {
+  margin-bottom: 22px;
 }
 
 .frequently-item {
 }
 
 .frequently-box {
-  display: flex;
-  gap: 16px;
-  margin-bottom: 24px;
 }
 
 .icon.minus {
@@ -2055,6 +2015,7 @@ details[open] .icon.minus {
   font-size: 1.2em;
   display: flex;
   align-items: center;
+  gap: 16px;
 }
 
 .frequently-item-box {
